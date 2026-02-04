@@ -45,16 +45,13 @@ todo_app/
 git clone <repository-url>
 cd todo_app
 ```
-
 2. Run the application
-
-3. Run the application
 
 ```bash
 python app.py
 ```
 
-4. Open browser
+3. Open browser
 
 ```
 http://127.0.0.1:5000
