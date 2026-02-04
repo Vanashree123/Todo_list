@@ -1,0 +1,89 @@
+body.bg {
+    background: url("/static/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 40px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    max-width: 400px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #555;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    background: #f2f2f2;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.diary-entry {
+    background: #fff6e5;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+li {
+    background: linear-gradient(120deg, #e0eafc, #cfdef3);
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    width: auto;
+    padding: 5px 8px;
+    margin-left: 5px;
+    background: #6a5acd;
+    border-radius: 50%;
+}
